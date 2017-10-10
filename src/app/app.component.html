@@ -1,4 +1,5 @@
-<div class="row">
+<div class="container">
+  <div class="row">
   <div class="col-md-2">
     <img src="https://firebasestorage.googleapis.com/v0/b/cv-project-6fa7f.appspot.com/o/photo.jpeg?alt=media&token=ca83337b-7a53-4ee2-8315-f174f248030a" alt="" class="img-thumbnail">
   </div>
@@ -11,120 +12,120 @@
     <p><span>Sqype:</span> {{user?.sqype}}</p>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-    <h4><span>Желаемая должность и зарплата:</span></h4>
+  <div class="row">
+    <div class="col-md-12">
+      <h4><span>Желаемая должность и зарплата:</span></h4>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.position}}</h3>
+    </div>
+    <div class="col-md-2">
+      <h3>{{user?.salary}}</h3></div>
   </div>
-  <div class="col-md-10">
-    <h3>{{user?.position}}</h3>
+  <div class="row">
+    <div class="col-md-12">
+      <p><Span>Профессиональная область:</Span></p>
+      <p>{{user?.area}}</p>
+      <p><span>Занятость:</span> {{user?.employment}}</p>
+      <p><span>График работы:</span> {{user?.schedule}}</p>
+    </div>
   </div>
-  <div class="col-md-2">
-    <h3>{{user?.salary}}</h3></div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4><span>Опыт работы:</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p>{{user?.lastworktime}}</p>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.lastworkplace}}</h3>
+      <h4>{{user?.lastworkposition}}</h4>
+      <p><span>Обязанности:</span></p>
+      <p>{{user?.lastworkduties}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p>{{user?.secondworktime}}</p>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.secondworkplace}}</h3>
+      <h4>{{user?.secondworkposition}}</h4>
+      <p><span>Обязанности:</span></p>
+      <p>{{user?.secondworkduties}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p>{{user?.thirdworktime}}</p>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.thirdworkplace}}</h3>
+      <h4>{{user?.thirdworkposition}}</h4>
+      <p><span>Обязанности:</span></p>
+      <p>{{user?.thirdworkduties}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p>{{user?.forthworktime}}</p>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.forthworkplace}}</h3>
+      <h4>{{user?.forthworkposition}}</h4>
+      <p><span>Обязанности:</span></p>
+      <p>{{user?.forthworkduties}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4><span>Образование:</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p>{{user?.education}}</p>
+    </div>
+    <div class="col-md-10">
+      <h3>{{user?.university}}</h3>
+      <h4>{{user?.degree}}</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4><span>Ключевые навыки:</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p><span>Знание языков</span></p>
+    </div>
+    <div class="col-md-10">
+      <p>{{user?.languages}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p><span>Навыки</span></p>
+    </div>
+    <div class="col-md-10">
+      <p>{{user?.skills}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4><span>Дополнительная информация:</span></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <p><span>Обо мне</span></p>
+    </div>
+    <div class="col-md-10">
+      <p>{{user?.About}}</p>
+    </div>
+  </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-    <p><Span>Профессиональная область:</Span></p>
-    <p>{{user?.area}}</p>
-    <p><span>Занятость:</span> {{user?.employment}}</p>
-    <p><span>График работы:</span> {{user?.schedule}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h4><span>Опыт работы:</span></h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p>{{user?.lastworktime}}</p>
-  </div>
-  <div class="col-md-10">
-    <h3>{{user?.lastworkplace}}</h3>
-    <h4>{{user?.lastworkposition}}</h4>
-    <p><span>Обязанности:</span></p>
-    <p>{{user?.lastworkduties}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p>{{user?.secondworktime}}</p>
-  </div>
-  <div class="col-md-10">
-    <h3>{{user?.secondworkplace}}</h3>
-    <h4>{{user?.secondworkposition}}</h4>
-    <p><span>Обязанности:</span></p>
-    <p>{{user?.secondworkduties}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p>{{user?.thirdworktime}}</p>
-  </div>
-  <div class="col-md-10">
-    <h3>{{user?.thirdworkplace}}</h3>
-    <h4>{{user?.thirdworkposition}}</h4>
-    <p><span>Обязанности:</span></p>
-    <p>{{user?.thirdworkduties}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p>{{user?.forthworktime}}</p>
-  </div>
-  <div class="col-md-10">
-    <h3>{{user?.forthworkplace}}</h3>
-    <h4>{{user?.forthworkposition}}</h4>
-    <p><span>Обязанности:</span></p>
-    <p>{{user?.forthworkduties}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h4><span>Образование:</span></h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p>{{user?.education}}</p>
-  </div>
-  <div class="col-md-10">
-    <h3>{{user?.university}}</h3>
-    <h4>{{user?.degree}}</h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h4><span>Ключевые навыки:</span></h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p><span>Знание языков</span></p>
-  </div>
-  <div class="col-md-10">
-    <p>{{user?.languages}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p><span>Навыки</span></p>
-  </div>
-  <div class="col-md-10">
-    <p>{{user?.skills}}</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h4><span>Дополнительная информация:</span></h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <p><span>Обо мне</span></p>
-  </div>
-  <div class="col-md-10">
-    <p>{{user?.About}}</p>
-  </div>
-</div>
-
 
